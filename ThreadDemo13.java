@@ -5,17 +5,17 @@ class BankAccount
 {
     private int Balance = 1000;
 
-    public synchronized void Withdraw(int Amount)
+    public void Withdraw(int Amount)
     {
         if(Amount  <= Balance)
         {
-            System.out.println(Thread.currentThread().getName()+"Successfully wihtdraw the money");
+            System.out.println(Thread.currentThread().getName()+ "Successfully wihtdraw the money");
             Balance = Balance - Amount;
             System.out.println("The reamaining balance amount is : "+Balance);
         }
         else
         {
-            System.out.println(Thread.currentThread().getName()+"you cannot withdraw amount :");
+            System.out.println(Thread.currentThread().getName()+ "you cannot withdraw amount :");
         }
     }
 }
