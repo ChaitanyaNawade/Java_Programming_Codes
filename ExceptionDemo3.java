@@ -25,7 +25,8 @@ class ExceptionDemo3
         float iRet = 0.0f;
 
         //Function call we written in the try block  this block is going to handle the exception
-        try{
+        try
+        {
         Arithmatic aobj = new Arithmatic();
 
         iRet =  aobj.Division(Value1, Value2);

@@ -23,7 +23,6 @@ class InputDemoXX1
 
         }
         
-
         System.out.println("Number is"+no);
     }
 }

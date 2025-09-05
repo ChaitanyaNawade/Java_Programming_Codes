@@ -14,7 +14,7 @@ class Demo extends Thread
 }
 class ThreadDemo6
 {
-    public static void main(String A[]) Throws Exception 
+    public static void main(String A[]) throws Exception 
     {
         System.out.println("Inside the main Thread");
         Demo obj1 = new Demo();

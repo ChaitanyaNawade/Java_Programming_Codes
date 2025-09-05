@@ -18,7 +18,7 @@ class InputDemoXX
         }
         catch(IOException eobj)
         {
-
+            
         }
 
         System.out.println("Welcome "+Name);

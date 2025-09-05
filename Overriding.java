@@ -9,7 +9,7 @@ class Base
 
     public void Gun()
     {
-        System.out.println("Inside the Gun of bAse");
+        System.out.println("Inside the Gun of base");
     }
 }
 
