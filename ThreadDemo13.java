@@ -9,13 +9,13 @@ class BankAccount
     {
         if(Amount  <= Balance)
         {
-            System.out.println(Thread.currentThread().getName()+ "Successfully wihtdraw the money");
+            System.out.println(Thread.currentThread().getName()+ " Successfully wihtdraw the money");
             Balance = Balance - Amount;
             System.out.println("The reamaining balance amount is : "+Balance);
         }
         else
         {
-            System.out.println(Thread.currentThread().getName()+ "you cannot withdraw amount :");
+            System.out.println(Thread.currentThread().getName()+ " you cannot withdraw amount :");
         }
     }
 }
