@@ -11,6 +11,9 @@ class Collection17
         fruits.add("Guava");
         fruits.add("Lemon");
 
+        fruits.addFirst("Mango");
+        fruits.addLast("lichi");
+
         Iterator<String> itr = fruits.iterator();
 
         while(itr.hasNext())
