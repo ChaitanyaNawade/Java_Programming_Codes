@@ -26,7 +26,7 @@ class ServerChatX
         while((str1 = bobj1.readLine()) != null)
         {
             System.out.println("Client says :"+ str1);
-            System.out.println("Ebter the message for client :");
+            System.out.println("Enter the message for client :");
             str2 = bobj2.readLine();
             pobj.println(str1);
         }
